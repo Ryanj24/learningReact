@@ -6,7 +6,7 @@ import FactList from './components/FactList'
 function App() {
 
   return (
-    <main className='bg-slate-600 h-screen'>
+    <main className='flex flex-col bg-slate-600 h-screen'>
       {/* Navbar */}
       <Navbar />
 
