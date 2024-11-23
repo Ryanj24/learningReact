@@ -1,5 +1,3 @@
-import React from 'react'
-
 const FactList = () => {
   return (
     <section className='flex justify-between flex-1 items-center p-20 relative bg-[url("/src/assets/React-icon.svg")] bg-no-repeat bg-[140%_75%]'>

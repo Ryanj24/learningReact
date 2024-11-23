@@ -1,4 +1,3 @@
-import React from 'react'
 import ReactLogo from '../assets/React-icon.svg'
 
 const Navbar = () => {
