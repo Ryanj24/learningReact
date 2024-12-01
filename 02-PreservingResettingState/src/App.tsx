@@ -1,9 +1,7 @@
-import { useState } from 'react'
-import Counter from './components/Counter'
 import SameComponentMultipleRenders from './examples/SameComponentMultipleRenders'
+import SameCompSamePosPreservesState from './examples/SameCompSamePosPreservesState'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className='flex flex-col flex-1 gap-8 p-5'>
@@ -12,6 +10,7 @@ function App() {
         <p className='text-lg'>Examples demonstrating state behaviour depending on the position of components in the render tree</p>
       </header>
       <SameComponentMultipleRenders />
+      <SameCompSamePosPreservesState />
     </div>
   )
 }
