@@ -1,4 +1,5 @@
 import DiffCompsSamePosResetState from './examples/DiffCompsSamePosResetState'
+import ResetStateAtSamePos from './examples/ResetStateAtSamePos/ResetStateAtSamePos'
 import SameComponentMultipleRenders from './examples/SameComponentMultipleRenders'
 import SameCompSamePosPreservesState from './examples/SameCompSamePosPreservesState'
 
@@ -13,6 +14,7 @@ function App() {
       <SameComponentMultipleRenders />
       <SameCompSamePosPreservesState />
       <DiffCompsSamePosResetState />
+      <ResetStateAtSamePos />
     </div>
   )
 }
